@@ -1,0 +1,14 @@
+.row {
+  padding-top: 150px;
+  width: 99%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  flex: 50%;
+  display: grid;
+  place-content: center;
+  width: 80%;
+}

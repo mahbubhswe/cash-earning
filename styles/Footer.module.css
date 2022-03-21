@@ -1,0 +1,44 @@
+.container {
+  /* background-image: url("../public//img/footer.gif") !important; */
+  width: 100vw;
+  padding: 100px 0px;
+  display: grid;
+  place-content: center;
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  background: #181838;
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 100vw;
+    padding: 80px 0px;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background: #181838;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .container {
+    width: 100vw;
+    padding: 30px 0px;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 13px;
+    background: #181838;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .container {
+    width: 100vw;
+    padding: 20px 1px;
+    font-size: 10px;
+  }
+}

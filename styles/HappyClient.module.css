@@ -1,0 +1,21 @@
+.titleText {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 800;
+}
+.clientContainer {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  padding: 50px 0px;
+}
+.item {
+  height: 300px;
+  width: 250px;
+  display: grid;
+  place-content: center;
+  padding-bottom: 80px;
+}

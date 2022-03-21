@@ -1,0 +1,45 @@
+.profileContainer {
+  border-radius: 5px;
+  padding: 20px;
+  background: #111827;
+  width: 89vw;
+  height: 100vh;
+}
+.item {
+  padding: 8px 0px;
+  font-size: 21px;
+}
+.itemContainer {
+  /* background-color: #070b13; */
+  width: 30%;
+  height: 95vh;
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 0 0 5px 0 #0b0b14, 0 11px 6px -7px #100f1b;
+}
+.title {
+  width: 100%;
+  font-size: 25px;
+  border-bottom: 1px solid gray;
+  padding: 5px 0px;
+}
+
+@media only screen and (max-width: 1156px) {
+  .itemContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .itemContainer {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .itemContainer {
+    width: 100%;
+    box-shadow: none;
+  }
+}
